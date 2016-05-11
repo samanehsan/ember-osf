@@ -11,7 +11,5 @@ export default OsfModel.extend({
 
     date_registered: DS.attr('date'),
 
-    nodes: DS.hasMany('nodes'),
-    registrations: DS.hasMany('registrations'),
-    institutions: DS.hasMany('institutions')
+    nodes: DS.hasMany('nodes')
 });
